@@ -1,4 +1,4 @@
-namespace EnterpriseFrame.EntityFramework
+namespace EnterpriseFrame.Entity
 {
     using System;
     using System.Collections.Generic;

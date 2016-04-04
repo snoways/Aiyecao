@@ -6,21 +6,32 @@ using System.Web.Mvc;
 
 using Autofac;
 using EnterpriseFrame.Service;
-using EnterpriseFrame.Service.Interface;
+using EnterpriseFrame.Service.EntityFramework;
+using EnterpriseFrame.Core.Logging;
+using System.Reflection;
+using EnterpriseFrame.Core.Utility.ValidateCode;
 
 namespace EnterpriseFrame.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private IAdminService _adminService;
-        public HomeController(IAdminService adminService)
+        private ILogger _logger;
+        private ValidateCodeType _validCode;
+        public HomeController(ILogger logger, ValidateCodeType validCode)
         {
-            _adminService = adminService;
+            _validCode = validCode;
+            _logger = logger;
         }
         public ActionResult Index()
         {
-            var result = _adminService.CheckAdminPwd("admin", "123456");
-            return Content(result.ToString());
+            string code;
+            byte[] data = _validCode.CreateImage(out code);
+            using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+            {
+                stream.Read(data, 0, Convert.ToInt32(stream.Length));
+            }
+            _logger.WriteDebug(_validCode.GetType().Name+"验证码："+code);
+            return File(data, @"image/jpeg");
         }
     }
 }

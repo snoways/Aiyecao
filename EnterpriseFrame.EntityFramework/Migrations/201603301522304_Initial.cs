@@ -1,4 +1,4 @@
-namespace EnterpriseFrame.EntityFramework.Migrations
+namespace EnterpriseFrame.Entity.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

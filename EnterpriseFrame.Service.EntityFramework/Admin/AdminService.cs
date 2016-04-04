@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EnterpriseFrame.Service.Interface;
-using EnterpriseFrame.EntityFramework;
+using EnterpriseFrame.Entity;
 using EnterpriseFrame.Core.Data;
 
 namespace EnterpriseFrame.Service.EntityFramework

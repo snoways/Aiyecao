@@ -69,25 +69,23 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AdminManager.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyloggerUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EnterpriseFrame.Core\EnterpriseFrame.Core.csproj">
       <Project>{4def2797-47a5-40c9-97c8-6bbc09926aea}</Project>
       <Name>EnterpriseFrame.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EnterpriseFrame.EntityFramework\EnterpriseFrame.EntityFramework.csproj">
+    <ProjectReference Include="..\EnterpriseFrame.EntityFramework\EnterpriseFrame.Entity.csproj">
       <Project>{03b81016-ea3c-41da-90f2-a0ea2f9fb75c}</Project>
-      <Name>EnterpriseFrame.EntityFramework</Name>
+      <Name>EnterpriseFrame.Entity</Name>
     </ProjectReference>
     <ProjectReference Include="..\EnterpriseFrame.Service.EntityFramework\EnterpriseFrame.Service.EntityFramework.csproj">
       <Project>{87e96e6e-43fd-4895-9012-36cff3cf4c30}</Project>
       <Name>EnterpriseFrame.Service.EntityFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EnterpriseFrame.Service.Interface\EnterpriseFrame.Service.Interface.csproj">
-      <Project>{de4bae5a-cfa3-411a-960a-0e74808d558e}</Project>
-      <Name>EnterpriseFrame.Service.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

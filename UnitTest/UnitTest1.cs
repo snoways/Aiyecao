@@ -1,12 +1,11 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EnterpriseFrame.EntityFramework;
+using EnterpriseFrame.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using Autofac;
 using Autofac.Configuration;
 using EnterpriseFrame.Service.EntityFramework;
-using EnterpriseFrame.Service.Interface;
 using EnterpriseFrame.Core.Data;
 
 namespace UnitTest
@@ -58,18 +57,6 @@ namespace UnitTest
                 var result = service.CheckAdminPwd("admin", "123456");
                 Assert.IsTrue(result);
             }
-        }
-    }
-    public class AdminManager
-    {
-        private readonly IAdminService _adminService;
-        public AdminManager(IAdminService adminService)
-        {
-            _adminService = adminService;
-        }
-        public bool CheckPwd(string name,string pwd) 
-        {
-            return _adminService.CheckAdminPwd(name, pwd);
         }
 
     }

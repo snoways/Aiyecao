@@ -22,11 +22,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2C1CA20C-3C1E-4A21-B3BF-28158CBADA30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.Service.Interface", "EnterpriseFrame.Service.Interface\EnterpriseFrame.Service.Interface.csproj", "{DE4BAE5A-CFA3-411A-960A-0E74808D558E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.Service.EntityFramework", "EnterpriseFrame.Service.EntityFramework\EnterpriseFrame.Service.EntityFramework.csproj", "{87E96E6E-43FD-4895-9012-36CFF3CF4C30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.EntityFramework", "EnterpriseFrame.EntityFramework\EnterpriseFrame.EntityFramework.csproj", "{03B81016-EA3C-41DA-90F2-A0EA2F9FB75C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.Entity", "EnterpriseFrame.EntityFramework\EnterpriseFrame.Entity.csproj", "{03B81016-EA3C-41DA-90F2-A0EA2F9FB75C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.Core", "EnterpriseFrame.Core\EnterpriseFrame.Core.csproj", "{4DEF2797-47A5-40C9-97C8-6BBC09926AEA}"
 EndProject
@@ -44,10 +42,6 @@ Global
 		{E3BD98F9-60AC-47C9-85A3-E5BEFCAD243B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3BD98F9-60AC-47C9-85A3-E5BEFCAD243B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3BD98F9-60AC-47C9-85A3-E5BEFCAD243B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE4BAE5A-CFA3-411A-960A-0E74808D558E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE4BAE5A-CFA3-411A-960A-0E74808D558E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE4BAE5A-CFA3-411A-960A-0E74808D558E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE4BAE5A-CFA3-411A-960A-0E74808D558E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{87E96E6E-43FD-4895-9012-36CFF3CF4C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87E96E6E-43FD-4895-9012-36CFF3CF4C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E96E6E-43FD-4895-9012-36CFF3CF4C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,7 +61,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C68C92CA-BFFB-48F8-8D10-9F3533BE6626} = {0BF9F774-A3CD-4869-91BF-1ECC1DBB344E}
 		{E3BD98F9-60AC-47C9-85A3-E5BEFCAD243B} = {B405A63C-D3C1-4CC9-8CE6-DF8FAFA953F3}
-		{DE4BAE5A-CFA3-411A-960A-0E74808D558E} = {2C1CA20C-3C1E-4A21-B3BF-28158CBADA30}
 		{87E96E6E-43FD-4895-9012-36CFF3CF4C30} = {2C1CA20C-3C1E-4A21-B3BF-28158CBADA30}
 		{03B81016-EA3C-41DA-90F2-A0EA2F9FB75C} = {2C1CA20C-3C1E-4A21-B3BF-28158CBADA30}
 		{4DEF2797-47A5-40C9-97C8-6BBC09926AEA} = {F260E17C-EE48-46C6-AED8-DE220CF074B3}

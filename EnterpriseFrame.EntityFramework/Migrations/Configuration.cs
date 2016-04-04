@@ -1,18 +1,18 @@
-namespace EnterpriseFrame.EntityFramework.Migrations
+namespace EnterpriseFrame.Entity.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<EnterpriseFrame.EntityFramework.EnterpriseContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<EnterpriseFrame.Entity.EnterpriseContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(EnterpriseFrame.EntityFramework.EnterpriseContext context)
+        protected override void Seed(EnterpriseFrame.Entity.EnterpriseContext context)
         {
             //  This method will be called after migrating to the latest version.
             context.Admins.Add(new Admin() { AdminName = "admin", AdminPwd = "123456" });

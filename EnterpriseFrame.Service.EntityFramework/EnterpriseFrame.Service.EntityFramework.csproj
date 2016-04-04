@@ -50,7 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminService.cs" />
+    <Compile Include="Admin\AdminService.cs" />
+    <Compile Include="Admin\IAdminService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,13 +59,9 @@
       <Project>{4def2797-47a5-40c9-97c8-6bbc09926aea}</Project>
       <Name>EnterpriseFrame.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EnterpriseFrame.EntityFramework\EnterpriseFrame.EntityFramework.csproj">
+    <ProjectReference Include="..\EnterpriseFrame.EntityFramework\EnterpriseFrame.Entity.csproj">
       <Project>{03b81016-ea3c-41da-90f2-a0ea2f9fb75c}</Project>
-      <Name>EnterpriseFrame.EntityFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EnterpriseFrame.Service.Interface\EnterpriseFrame.Service.Interface.csproj">
-      <Project>{de4bae5a-cfa3-411a-960a-0e74808d558e}</Project>
-      <Name>EnterpriseFrame.Service.Interface</Name>
+      <Name>EnterpriseFrame.Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

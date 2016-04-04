@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnterpriseFrame.Service.Interface
+namespace EnterpriseFrame.Core.Infrastructure
 {
     public interface IDependency
     {

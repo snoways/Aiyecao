@@ -10,7 +10,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnterpriseFrame.EntityFramework
+namespace EnterpriseFrame.Entity
 {
     using EnterpriseFrame.Core.Data;
 
