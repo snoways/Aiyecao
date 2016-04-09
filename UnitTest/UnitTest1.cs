@@ -50,6 +50,9 @@ namespace UnitTest
         public void Autofac注册方式二()//使用配置文件
         {
             var build = new ContainerBuilder();
+
+            build.RegisterGeneric(typeof(EfRepository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
+            build.Register<IDbContext>(c => new EnterpriseContext("name=EnterpriseCon")).InstancePerLifetimeScope();
             build.RegisterModule(new ConfigurationSettingsReader("autofac"));
             using (var container = build.Build())
             {

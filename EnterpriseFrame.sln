@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.Entity", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.Core", "EnterpriseFrame.Core\EnterpriseFrame.Core.csproj", "{4DEF2797-47A5-40C9-97C8-6BBC09926AEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{2282C9DC-39F4-4752-A848-F63A89C5DF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseFrame.Web.Framework", "EnterpriseFrame.Web.Framework\EnterpriseFrame.Web.Framework.csproj", "{D6ECC25A-1959-4AAB-A28A-6FEA0C6152CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,10 @@ Global
 		{4DEF2797-47A5-40C9-97C8-6BBC09926AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DEF2797-47A5-40C9-97C8-6BBC09926AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DEF2797-47A5-40C9-97C8-6BBC09926AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ECC25A-1959-4AAB-A28A-6FEA0C6152CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ECC25A-1959-4AAB-A28A-6FEA0C6152CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ECC25A-1959-4AAB-A28A-6FEA0C6152CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ECC25A-1959-4AAB-A28A-6FEA0C6152CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +72,6 @@ Global
 		{87E96E6E-43FD-4895-9012-36CFF3CF4C30} = {2C1CA20C-3C1E-4A21-B3BF-28158CBADA30}
 		{03B81016-EA3C-41DA-90F2-A0EA2F9FB75C} = {2C1CA20C-3C1E-4A21-B3BF-28158CBADA30}
 		{4DEF2797-47A5-40C9-97C8-6BBC09926AEA} = {F260E17C-EE48-46C6-AED8-DE220CF074B3}
+		{D6ECC25A-1959-4AAB-A28A-6FEA0C6152CC} = {F260E17C-EE48-46C6-AED8-DE220CF074B3}
 	EndGlobalSection
 EndGlobal
