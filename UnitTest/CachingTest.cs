@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Autofac;
-using EnterpriseFrame.Core.Caching;
-using EnterpriseFrame.Core.Infrastructure;
+using Aiyecao.Core.Caching;
+using Aiyecao.Core.Infrastructure;
 
 namespace UnitTest
 {

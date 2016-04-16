@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EnterpriseFrame.Entity;
+using Aiyecao.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using Autofac;
 using Autofac.Configuration;
-using EnterpriseFrame.Service.EntityFramework;
-using EnterpriseFrame.Core.Data;
+using Aiyecao.Service.EntityFramework;
+using Aiyecao.Core.Data;
 
 namespace UnitTest
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EnterpriseFrame.Core.Logging;
+using Aiyecao.Core.Logging;
 using Autofac;
 
 namespace UnitTest
